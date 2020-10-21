@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 function addBingoSheet(){
     var $bingoSheet = $("<div></div>");
-    $bingoSheet.append("<img src='https://i2.wp.com/www.ashesh.com.np/wp-content/uploads/2013/09/Happy-Dashain.jpg?w=800&ssl=1' />")
+    $bingoSheet.append("<img src='bingokite.png' />")
     for(var i=0; i<5; ++i){
         $bingoSheet.append(createBingoBlock(getNumberPool(75, [38, 42])));
     }
