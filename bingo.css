@@ -1,0 +1,23 @@
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+
+td{
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.bingoContainer>div{
+    float:left;
+    margin-right: 20px;
+}
+
+.bingoContainer img{
+    width: 344px;
+}
