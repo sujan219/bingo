@@ -8,7 +8,7 @@ $(document).ready(function(){
 });
 
 function addBingoSheet(){
-    var $bingoSheet = $("<div><h3>Happy Vijaya Dashami</h3></div>");
+    var $bingoSheet = $("<div><h3>Shuvha Vijaya Dashami</h3></div>");
     $bingoSheet.append("<img src='bingokite.png' />")
     for(var i=0; i<5; ++i){
         $bingoSheet.append(createBingoBlock(getNumberPool(75, [38, 42])));
