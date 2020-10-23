@@ -1,23 +1,35 @@
 table {
-  border: 1px solid black;
+  border: 2px solid black;
   border-collapse: collapse;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 
 td{
     border: 1px solid black;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .bingoContainer>div{
     float:left;
-    margin-right: 20px;
+    margin-left: 34px;
+    margin-right: 34px;
+    margin-bottom: 30px;
 }
 
 .bingoContainer img{
-    width: 344px;
+    width: 250px;
+}
+
+.bingoContainer{
+    text-align: center;
+    padding-top: 10px;
+}
+
+h3{
+    font-family: 'Paprika', cursive;
+    line-height: 0px;
 }

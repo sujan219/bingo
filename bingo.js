@@ -2,12 +2,13 @@ var rows = 3;
 var cols = 9;
 
 $(document).ready(function(){
-    addBingoSheet();
-    addBingoSheet();
+    for(var i=0; i<30; ++i){
+        addBingoSheet();
+    }
 });
 
 function addBingoSheet(){
-    var $bingoSheet = $("<div></div>");
+    var $bingoSheet = $("<div><h3>Happy Vijayadashami</h3></div>");
     $bingoSheet.append("<img src='bingokite.png' />")
     for(var i=0; i<5; ++i){
         $bingoSheet.append(createBingoBlock(getNumberPool(75, [38, 42])));
